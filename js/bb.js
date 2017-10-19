@@ -157,13 +157,13 @@ $(function() {
 				$("#J_bb-rock-result").html(dicestitle);
 				var speakstr = dices.toString().split("");
 				var speak = ", 您的幸運博餅骰子是," + speakstr + ",,";
-				responsiveVoice.speak(speak.toString() + rstr, "Chinese Female");
+				//responsiveVoice.speak(speak.toString() + rstr, "Chinese Female");
 				$("#J_bb-rock-result").show(1000);
 				}
 				else
 				{var speakstr = dices.toString().split("");
 				var speak = ", 您的幸運博餅骰子是," + speakstr + ",,";
-				responsiveVoice.speak(speak.toString() , "Chinese Female");
+				//responsiveVoice.speak(speak.toString() , "Chinese Female");
 				}
             },
             _render: function(dices) {
